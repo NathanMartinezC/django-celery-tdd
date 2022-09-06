@@ -1,0 +1,16 @@
+celery==5.2.1
+django==3.2.9
+redis==4.0.2
+flower==1.0.0
+psycopg2==2.9.3
+requests==2.26.0
+channels==3.0.4
+channels-redis==3.3.1
+django-celery-beat==2.2.1
+watchfiles
+pytest==7.1.2
+pytest-django==4.5.2
+factory_boy==3.2.1
+pytest-factoryboy==2.5.0
+pytest-cov==3.0.0
+Pillow==9.2.0
