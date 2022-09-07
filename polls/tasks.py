@@ -10,6 +10,7 @@ from celery.utils.log import get_task_logger
 from django.db import transaction
 from django.contrib.auth.models import User
 from polls.consumers import notify_channel_layer
+from polls.base_task import custom_celery_task
 
 logger = get_task_logger(__name__)
 
@@ -24,12 +25,11 @@ def sample_task(email):
     from polls.views import api_call
     api_call(email)
 
-@shared_task(bind=True, base=BaseTaskWithRetry)
+@custom_celery_task(bind=True, retry_backoff=5, max_retries=5)
 def task_process_notification(self):
-    raise Exception()
-    # if not random.choice([0,1]):
-    #     raise Exception()
-    # requests.post('https://httpbin.org/delay/5')
+    if not random.choice([0,1]):
+        raise Exception()
+    requests.post('https://httpbin.org/delay/5')
 
 @task_postrun.connect
 def task_postrun_handler(task_id, **kwargs):
@@ -101,3 +101,13 @@ def task_add_subscribe(self, user_pk):
         )
     except Exception as exc:
         raise self.retry(exc=exc)
+
+@custom_celery_task(max_retries=3)
+def task_transaction_test():
+    from .views import random_username
+    username = random_username()
+    user = User.objects.create_user(username, 'lennon@thebeatles', 'johnpassword')
+    user.save()
+    logger.info(f'send mail to {user.pk}')
+    # this cause db rollback because of transaction.atomic
+    raise Exception('test')

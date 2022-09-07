@@ -286,3 +286,131 @@
 [2022-09-05 04:16:29,382: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
 [2022-09-05 04:16:29,406: INFO/MainProcess] Task celery.backend_cleanup[90b85161-2bfd-401e-bc00-002e58a09043] received
 [2022-09-05 04:16:29,424: INFO/ForkPoolWorker-2] Task celery.backend_cleanup[90b85161-2bfd-401e-bc00-002e58a09043] succeeded in 0.0056273340014740825s: None
+[2022-09-06 00:46:57,638: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 00:46:57,652: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 00:46:58,678: INFO/MainProcess] mingle: all alone
+[2022-09-06 00:46:58,714: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 00:46:58,717: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 00:47:00,298: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 00:50:20,008: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 00:50:20,026: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 00:50:21,047: INFO/MainProcess] mingle: all alone
+[2022-09-06 00:50:21,082: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 00:50:21,084: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 00:50:25,297: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 00:57:10,263: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 00:57:10,280: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 00:57:11,301: INFO/MainProcess] mingle: all alone
+[2022-09-06 00:57:11,332: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 00:57:11,335: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 00:57:15,299: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:04:49,415: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:04:49,426: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:04:50,451: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:04:50,487: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:04:50,491: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:04:55,296: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:08:28,899: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:08:28,903: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:08:34,933: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:08:34,975: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:08:34,978: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:08:35,293: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:11:55,502: INFO/MainProcess] Task polls.tasks.task_transaction_test[1d52fc8c-7ed9-4ae4-bf4b-2b0ff8dd8788] received
+[2022-09-06 01:11:55,562: INFO/ForkPoolWorker-2] Task polls.tasks.task_transaction_test[1d52fc8c-7ed9-4ae4-bf4b-2b0ff8dd8788] succeeded in 0.04227308298868593s: None
+[2022-09-06 01:12:01,428: INFO/MainProcess] Task polls.tasks.task_transaction_test[c8bd4943-571b-4099-98dd-91bcb61457cf] received
+[2022-09-06 01:12:01,442: INFO/ForkPoolWorker-2] Task polls.tasks.task_transaction_test[c8bd4943-571b-4099-98dd-91bcb61457cf] succeeded in 0.008554000000003725s: None
+[2022-09-06 01:12:15,973: INFO/MainProcess] Task polls.tasks.task_transaction_test[96d2781f-2fa4-4651-a084-da818b4b853d] received
+[2022-09-06 01:12:15,989: INFO/ForkPoolWorker-2] Task polls.tasks.task_transaction_test[96d2781f-2fa4-4651-a084-da818b4b853d] succeeded in 0.00959458400029689s: None
+[2022-09-06 01:12:33,112: INFO/MainProcess] Task polls.tasks.task_transaction_test[5763e100-75bc-4da6-9a68-6737e9f06286] received
+[2022-09-06 01:12:33,135: INFO/ForkPoolWorker-2] Task polls.tasks.task_transaction_test[5763e100-75bc-4da6-9a68-6737e9f06286] succeeded in 0.01433691699639894s: None
+[2022-09-06 01:15:35,156: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:15:40,170: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:15:41,200: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:15:41,235: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:15:41,237: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:15:45,293: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:16:36,763: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:16:36,781: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:16:37,797: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:16:37,818: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:16:37,820: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:16:40,300: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:20:43,146: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:20:43,164: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:20:44,183: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:20:44,217: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:20:44,220: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:20:45,290: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:23:46,977: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:23:46,991: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:23:48,012: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:23:48,051: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:23:48,054: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:23:50,293: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:26:08,091: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:26:08,104: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:26:09,128: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:26:09,167: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:26:09,170: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:26:10,301: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:30:41,682: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:30:41,703: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:30:42,723: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:30:42,749: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:30:42,751: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:30:45,296: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:30:55,959: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:30:55,974: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:30:56,993: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:30:57,023: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:30:57,026: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:31:00,296: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 01:33:24,587: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-06 01:33:24,592: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-06 01:33:25,603: INFO/MainProcess] mingle: all alone
+[2022-09-06 01:33:25,641: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-06 01:33:25,643: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-06 01:33:30,292: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-06 04:20:11,339: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2022-09-06 04:20:11,367: INFO/MainProcess] Task celery.backend_cleanup[b884ca0c-6f1e-432e-8686-728ac833e2d1] received
+[2022-09-06 04:20:16,429: INFO/ForkPoolWorker-2] Task celery.backend_cleanup[b884ca0c-6f1e-432e-8686-728ac833e2d1] succeeded in 5.044177044008393s: None
