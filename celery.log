@@ -414,3 +414,24 @@
 [2022-09-06 04:20:11,339: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
 [2022-09-06 04:20:11,367: INFO/MainProcess] Task celery.backend_cleanup[b884ca0c-6f1e-432e-8686-728ac833e2d1] received
 [2022-09-06 04:20:16,429: INFO/ForkPoolWorker-2] Task celery.backend_cleanup[b884ca0c-6f1e-432e-8686-728ac833e2d1] succeeded in 5.044177044008393s: None
+[2022-09-07 04:48:20,627: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2022-09-07 04:48:20,648: INFO/MainProcess] Task celery.backend_cleanup[1b539fc7-f4f7-48f2-9d2a-6ef7ca01203e] received
+[2022-09-07 04:48:20,667: INFO/ForkPoolWorker-2] Task celery.backend_cleanup[1b539fc7-f4f7-48f2-9d2a-6ef7ca01203e] succeeded in 0.005333167006028816s: None
+[2022-09-08 02:38:22,600: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-08 02:38:22,622: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-08 02:38:23,640: INFO/MainProcess] mingle: all alone
+[2022-09-08 02:38:23,674: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-08 02:38:23,677: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-08 02:38:25,302: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-09-08 02:39:55,647: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-09-08 02:39:55,653: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-08 02:39:56,668: INFO/MainProcess] mingle: all alone
+[2022-09-08 02:39:56,695: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-08 02:39:56,698: INFO/MainProcess] celery@bc059780467a ready.
+[2022-09-08 02:40:00,299: INFO/MainProcess] Events of group {task} enabled by remote.
