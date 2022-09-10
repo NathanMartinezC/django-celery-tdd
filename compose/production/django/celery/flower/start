@@ -16,4 +16,5 @@ done
 exec celery -A django_celery_example \
     --broker="${CELERY_BROKER}" \
     flower \
-    --basic_auth="${CELERY_FLOWER_USER}:${CELERY_FLOWER_PASSWORD}"
+    --basic_auth="${CELERY_FLOWER_USER}:${CELERY_FLOWER_PASSWORD}" \
+    --persistent=1 --db=/app/flower_db/flower.db --state_save_interval=5000
